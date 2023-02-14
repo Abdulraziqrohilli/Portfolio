@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 465;        
 
         $mail->setFrom("contact.raziq@gmail.com", 'No-reply');
-        $mail->addAddress('abdulraziqrohilli@gmail.com', 'Abdulraziq Rohilli');
+        $mail->addAddress('abdulraziqrohilli@gmail.com', 'Email from Abdulraziq Rohilli');
         //Content
         $mail->isHTML(true);    
 
